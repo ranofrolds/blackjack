@@ -1,0 +1,235 @@
+
+
+.bg{
+    background-image: url('../images/table.jpg.png');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.table{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.player{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dealer{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.count input{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    pointer-events:none;
+}
+
+.cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card{
+    width: 200px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-right: 15px;
+
+}
+
+.bettedchips{
+    width: 50%;
+    height: 10%;
+    display: flex;
+    border-radius: 20px;
+    background: rgba(0, 128, 0, 0.452);
+    align-items: center;
+    justify-content: center;
+}
+
+.bettedchips #bet-table{
+    background: none;
+    outline: none;
+    border:none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bettedchips p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+    margin-right: 10px ;
+
+}
+
+
+
+
+
+
+.betarea{
+    background-color: rgba(15, 15, 15, 0.623);
+    position: absolute;
+    width: 500px;
+    height: 230px;
+    display: flex;
+    border-radius: 20px;
+    bottom: 0;
+    margin-bottom: -20px;
+    transition: 0.25s ease-in-out;
+}
+
+.select-chip{
+    width: 320px;
+}
+
+.select-chip img{
+    height: 100px;
+}
+.select-chip button{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.player-chip{
+    margin-left:40px;
+    margin-top: 20px;
+}
+
+.player-chip p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.player-chip div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+
+.player-chip input{
+    width: 80%;
+    height: 20px;
+    background:none;
+    border: none;
+    outline: none;
+    cursor: default;
+    pointer-events:none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.hide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(15, 15, 15, 0.623);
+    height: 40px;
+    width: 100px;
+    margin-left: -260px;
+    margin-top: -40px;
+    border-radius: 20px 20px 0 0;
+}
+
+.hide button{
+    width: 100%;
+    background:none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu{
+    display:none;
+    background-color: rgba(0, 0, 0, 0.267);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.opt{
+    width: 350px;
+    height: 280px;
+    background-color:#1a1a1ac9;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.opt > div{
+    margin-bottom: 35px;
+}
+
+.opt div:last-child{
+    margin-bottom: 0;
+}
+
+.opt button{
+    background-image: linear-gradient(#333333, #4e4e4e);
+    text-shadow: 1px 1px black;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
